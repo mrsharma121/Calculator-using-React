@@ -1,0 +1,111 @@
+body{
+    background-color: #2693c5;
+}
+
+#root{
+    box-sizing: border-box;
+    height: 28.3vw;
+    width: 21vw;
+    margin: 10vw 40vw;
+    position: relative;
+}
+
+/* #calculator{
+    margin-right: 8px;
+    margin-left: 8px;
+    position: absolute;
+    left: 500px;
+    top: 80px;
+    width: 285px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 10px 38px black, -10px -10px 38px white;   
+} */
+
+/* img{
+    box-sizing: border-box;
+    height: 250px;
+    width: 303px;
+    position: absolute;
+    left: 900px;
+    top: 145px;
+} */
+
+#calculator{
+    margin: auto;
+    position: relative;
+    width: 21vw;
+    
+      
+}
+
+/* img{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+} */
+
+#keypad{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    /* font-size: 20px; */
+    
+}
+
+#clear{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#result{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+button{
+    height: 62px;
+    background-color: #17191a63;
+    cursor: pointer;
+     border-bottom-left-radius: 10px;
+    /* border-top-left-radius: 10px;  */
+    /* border-radius: 10px; */
+}
+button:hover{
+    color: white;
+    font-size: 15px;
+    background-color: teal;
+    border-style: inset;
+}
+
+input{
+    height: 5vw;
+    width: 20.5vw;
+    background-color: rgb(130, 162, 219);
+    border-style: inset;
+    position: relative;
+}
+
+
+#main{
+    position: absolute;
+}
+
+#main strong{
+    box-sizing: border-box;
+    height: 83px;
+    width: 271px;
+    position: absolute;
+    left: 913px;
+    top: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    border-radius: 45px;
+    box-shadow: 10px 10px 38px black, -4px -5px 38px white;
+}
+
+
+.btn{
+    position: relative;
+}
